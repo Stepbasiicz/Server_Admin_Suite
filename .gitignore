@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+dist/
+build/
+*.spec
+reports/*.pdf
+logs/*.log
+*.tmp
+_run_update.ps1
+_new_version.tmp
+config.dat
+config.json
