@@ -52,3 +52,16 @@
    - สคริปต์คอมไพล์คัดลอกไฟล์ Single EXE ตัวใหม่ไปอัปเดตที่ `D:\pp\admin tools\Server_Admin_Suite.exe` เรียบร้อยแล้ว
 3. **ระบบ Auto-Updater สมบูรณ์แบบ**:
    - เพิ่มฟังก์ชัน `_simulate_update_swap` ในแท็บ Settings ให้ผู้ใช้สามารถทดสอบกลไกการสลับไฟล์อัปเดตผ่าน PowerShell Zero-Lock Swap ได้ทันที
+
+### [2026-10-03 11:00] - อัปโหลดขึ้น GitHub Repository & สร้าง Release Binary (Enterprise Blueprint Sync)
+1. **สร้าง GitHub Repository:**
+   - สร้าง Repo ใหม่: `https://github.com/Stepbasiicz/Server_Admin_Suite` (Public)
+   - Push โค้ดทั้งหมดขึ้น branch `main` ครบทั้ง 29 ไฟล์
+2. **ระบบ GitHub Auto-Deploy Engine (`deploy_release.py`):**
+   - สร้าง Release Tag: `v261003.0545`
+   - แนบไฟล์ไบนารี `dist/Server_Admin_Suite.exe` (39.11 MB) ขึ้น GitHub Release Asset เรียบร้อย
+   - ตั้งค่านโยบายเก็บประวัติย้อนหลัง 5 Releases อัตโนมัติ (Release Retention Policy)
+3. **Live Version Manifest:**
+   - Manifest พร้อมใช้งานที่ `https://raw.githubusercontent.com/Stepbasiicz/Server_Admin_Suite/main/version.json`
+   - ทดสอบระบบ Auto-Updater ตรวจสอบผ่านเซิร์ฟเวอร์ GitHub จริง ผลการตรวจสอบ: เชื่อมต่อสมบูรณ์ ไม่ติด HTTP 404 อีกต่อไป
+
