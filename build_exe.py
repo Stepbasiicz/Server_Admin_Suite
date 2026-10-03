@@ -33,8 +33,8 @@ def cleanup_build_artifacts():
         except Exception:
             pass
 
-    for folder in ["build", "__pycache__"]:
-        if os.path.exists(folder):
+    for folder in ["build", "__pycache__", os.path.join("dist", EXE_NAME)]:
+        if os.path.isdir(folder):
             try:
                 shutil.rmtree(folder)
             except Exception:
