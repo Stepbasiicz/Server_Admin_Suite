@@ -1,8 +1,7 @@
 {
-    "latest_version": "261003.0450",
-    "version_tag": "v261003.0450",
-    "release_timestamp": "2026-10-03 04:50:00",
-    "download_url": "https://github.com/Soft4UApp/Server_Admin_Suite/releases/download/v261003.0450/Server_Admin_Suite.exe",
-    "release_notes": "🚀 Release v261003.0450: Standalone Single EXE, 1-Click Linux Admin Toolbox, License Activation & Zero-Lock Auto-Updater",
-    "file_size_mb": 42.5
+    "latest_version": "261003.0545",
+    "version_tag": "v261003.0545",
+    "download_url": "https://github.com/Stepbasiicz/Server_Admin_Suite/releases/download/v261003.0545/Server_Admin_Suite.exe",
+    "release_notes": "🚀 Soft4U Server Admin Suite v261003.0545: Enterprise Architecture 2026+ Release",
+    "file_size_mb": 41.0
 }
